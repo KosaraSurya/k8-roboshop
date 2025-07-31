@@ -45,7 +45,7 @@ spec:
         image: suryaprakashkosra/mysql:v1
         envFrom:
         - secretRef:
-            name: mysql
+            name: mysql-secret
 
 ---
 # Service
