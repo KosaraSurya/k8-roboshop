@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: suryaprakashkosra/mongodb
+        image: suryaprakashkosra/mongodb:v1
 
 ---
 # Service
