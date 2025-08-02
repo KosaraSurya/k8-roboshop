@@ -58,7 +58,7 @@ spec:
         project: roboshop
         tier: app
     spec:
-      securityContext:
+      securityContext: # I was takent these two line from chatgpt
         runAsUser: 0
       containers:
       - name: payment
