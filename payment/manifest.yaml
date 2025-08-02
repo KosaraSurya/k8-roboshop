@@ -20,7 +20,7 @@ data:
 apiVersion: v1
 kind: Secret
 metadata:
-  name: payment
+  name: payment-secret
   labels:
     component: payment
     project: roboshop
@@ -35,7 +35,7 @@ data:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: payment-secret
+  name: payment
   namespace: roboshop
   # Deployment set labels
   labels:
