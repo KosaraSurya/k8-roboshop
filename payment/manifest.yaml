@@ -61,6 +61,8 @@ spec:
       containers:
       - name: payment
         image: suryaprakashkosra/payment:v1
+        securityContext:
+        runAsUser: 0
         envFrom:
         - configMapRef:
             name: payment
